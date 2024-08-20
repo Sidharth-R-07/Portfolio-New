@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "AnekDevanagari Regular";
+  src: url("./assets/fonts/AnekDevanagari/AnekDevanagari-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "AnekDevanagari Bold";
+  src: url("./assets/fonts/AnekDevanagari/AnekDevanagari-Bold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "AnekDevanagari SemiBold";
+  src: url("./assets/fonts/AnekDevanagari/AnekDevanagari-SemiBold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "AnekDevanagari Medium";
+  src: url("./assets/fonts/AnekDevanagari/AnekDevanagari-Medium.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "AnekDevanagari Light";
+  src: url("./assets/fonts/AnekDevanagari/AnekDevanagari-Light.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "AnekDevanagari ExtraLight";
+  src: url("./assets/fonts/AnekDevanagari/AnekDevanagari-ExtraLight.ttf")
+    format("truetype");
+}
+
+/* LATO FONT */
+@font-face {
+  font-family: "Lato Light";
+  src: url("./assets/fonts/Lato/Lato-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato Regular";
+  src: url("./assets/fonts/Lato/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato Bold";
+  src: url("./assets/fonts/Lato/Lato-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato Black";
+  src: url("./assets/fonts/Lato/Lato-Black.ttf") format("truetype");
+}
