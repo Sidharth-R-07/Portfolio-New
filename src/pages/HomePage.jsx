@@ -11,7 +11,7 @@ export default function HomePage() {
     <div className="w-screen h-screen overflow-hidden flex items-center justify-center ">
       <Lottie
         animationData={backGroudAnimation}
-        className="absolute opacity-15 z-0 hidden md:flex "
+        className="absolute opacity-15 z-0 top-52 md:top-0 md:bottom-0"
       />
       <div className="z-10  md:px-16 px-4 flex flex-row w-full h-screen items-end md:justify-start justify-center">
         <div className="mt-20 md:w-2/3 flex flex-col items-start h-full text-white justify-center">
