@@ -58,3 +58,62 @@
   font-family: "Lato Black";
   src: url("./assets/fonts/Lato/Lato-Black.ttf") format("truetype");
 }
+
+/* -----------------------------THUNDER FONT----------------------- */
+
+@font-face {
+  font-family: "Thunder";
+  src: url("./assets/fonts/thunder/Thunder-LC.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Thunder Thin";
+  src: url("./assets/fonts/thunder/Thunder-ThinLC.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Thunder Medium";
+  src: url("./assets/fonts/thunder/Thunder-MediumLC.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Thunder SemiBold";
+  src: url("./assets/fonts/thunder/Thunder-SemiBoldLC.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Thunder Bold";
+  src: url("./assets/fonts/thunder/Thunder-BoldLC.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Thunder ExtraBold";
+  src: url("./assets/fonts/thunder/Thunder-ExtraBoldLC.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Thunder Black";
+  src: url("./assets/fonts/thunder/Thunder-BlackLC.ttf") format("truetype");
+}
+
+/* -----------------------------GENERAL SAN FONT--------------------------------- */
+
+@font-face {
+  font-family: "General Light";
+  src: url("./assets/fonts/general_sans/GeneralSans-Light.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "General Regular";
+  src: url("./assets/fonts/general_sans/GeneralSans-Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "General Bold";
+  src: url("./assets/fonts/general_sans/GeneralSans-Bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "General SemiBold";
+  src: url("./assets/fonts/general_sans/GeneralSans-Semibold.otf")
+    format("opentype");
+}
