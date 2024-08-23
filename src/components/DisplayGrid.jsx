@@ -12,6 +12,7 @@ import Lottie from "lottie-react";
 import ArrowLottie from "../assets/lotties/arrow.json";
 import DinoLottie from "../assets/lotties/dino.json";
 import QuotesFrame from "./QuotesFrame";
+import Cv from "../assets/pdf/SIDHARTH RAMANATHAN.pdf";
 
 export default function DisplayGrid() {
   return (
@@ -24,13 +25,13 @@ export default function DisplayGrid() {
               <br /> A MOBILE AND WEB DEVELOPER <br /> BASED IN INDIA.
             </h2>
             <h6 className="w-1/2 font-GeneralSansRegular text-[18px]">
-              I have been building websites for more than 10 years. I always
-              thought that focusing on just one area was not much fun, so I
-              learned the whole process: planning, building and launching
-              websites. This allowed me to specialize in storytelling, using
-              skills like branding, design and motion, to drive the user’s
-              attention to the right places and create more engaging and
-              memorable experiences.
+              Crafting code is my art, turning ideas into reality one keystroke
+              at a time. Welcome to my digital canvas, where innovation meets
+              functionality. As a software developer, I don't just write lines
+              of code; I sculpt solutions, weave algorithms, and paint seamless
+              user experiences. Let my portfolio be your window into a world
+              where creativity and technology converge, where every project
+              tells a story of problem-solving and passion.
             </h6>
           </div>
           <div className="flex w-full h-1/4 flex-grow gap-8">
@@ -101,16 +102,19 @@ export default function DisplayGrid() {
               you that Flutter is not just for building cross-platform
               applications.
             </p>
-            <button className="mt-4  px-7 bg-black py-2 text-white font-GeneralSansRegular rounded-3xl text-[13px] hover:scale-[1.04] duration-150 ease-in ">
+            <a
+              href={Cv}
+              className="mt-4  px-7 bg-black py-2 text-white font-GeneralSansRegular rounded-3xl text-[13px] hover:scale-[1.04] duration-150 ease-in "
+            >
               DOWNLOAD CV
-            </button>
+            </a>
           </div>
         </div>
 
         <div className=" w-max h-full flex flex-col flex-grow gap-8">
           <div className="bg-[#beed3a] p-3 flex flex-row items-center justify-center gap-2  h-1/3 rounded-2xl flex-grow ">
             <h2 className="text-[120px]  text-start font-ThunderExtraBold leading-10 tracking-wider">
-              14
+              12
             </h2>
 
             <h3 className="text-[50px] text-start font-ThunderBold leading-10">
@@ -123,7 +127,10 @@ export default function DisplayGrid() {
               className="absolute h-20 right-12 top-5"
             />
           </div>
-          <div className="relative bg-[#2a27e2] p-6 items-start justify-end flex flex-col  w-full h-full    flex-grow rounded-2xl hover:scale-[1.02] duration-150 ease-in">
+          <a
+            href="mailto:sidhuram365@gmail.com"
+            className="relative bg-[#2a27e2] p-6 items-start justify-end flex flex-col  w-full h-full cursor-pointer    flex-grow rounded-2xl hover:scale-[1.02] duration-150 ease-in"
+          >
             <Lottie
               animationData={ArrowLottie}
               className="absolute top-8 h-40 -left-6 "
@@ -138,7 +145,7 @@ export default function DisplayGrid() {
                 <img
                   src={LinkdinIcon}
                   alt="LINKDIN SIDHARTH RAMANATHAN"
-                  className="h-7 w-7 "
+                  className="h-7 w-7 cursor-pointer hover:scale-110"
                   style={{ filter: "invert(1)" }}
                 />
               </a>
@@ -147,7 +154,7 @@ export default function DisplayGrid() {
                 <img
                   src={GithubIcon}
                   alt="GITHUB SIDHARTH RAMANATHAN"
-                  className="h-7 w-7"
+                  className="h-7 w-7 cursor-pointer hover:scale-110"
                   style={{ filter: "invert(1)" }}
                 />
               </a>
@@ -156,7 +163,7 @@ export default function DisplayGrid() {
                 <img
                   src={TelegramIcon}
                   alt="TELEGRAM SIDHARTH RAMANATHAN"
-                  className="h-7 w-7 "
+                  className="h-7 w-7 cursor-pointer hover:scale-110"
                   style={{ filter: "invert(1)" }}
                 />
               </a>
@@ -165,7 +172,7 @@ export default function DisplayGrid() {
             <h6 className="mt-2 font-GeneralSansLight text-[12px] text-white tracking-widest">
               Sidhuram365@gmail.com
             </h6>
-          </div>
+          </a>
         </div>
       </div>
     </div>

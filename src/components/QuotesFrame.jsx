@@ -5,16 +5,17 @@ import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import QuotesData from "../data/QuotesData";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import Cv from "../assets/pdf/SIDHARTH RAMANATHAN.pdf";
 
 export default function QuotesFrame() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePreviousClick = () => {
-    setCurrentIndex((prevIndex) => prevIndex - 1);
+    setCurrentIndex(currentIndex - 1);
   };
 
   const handleNextClick = () => {
-    setCurrentIndex((prevIndex) => prevIndex + 1);
+    setCurrentIndex(currentIndex + 1);
   };
   return (
     <div className="relative py-8 px-10 bg-[#abaddd] h-full w-full   rounded-2xl flex-grow-0 ">
