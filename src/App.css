@@ -5,6 +5,9 @@
   height: 100%;
 }
 
+body {
+  background-color: #00041c;
+}
 .light-effect {
   letter-spacing: 15px;
 

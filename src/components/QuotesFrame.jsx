@@ -5,7 +5,6 @@ import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import QuotesData from "../data/QuotesData";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import Cv from "../assets/pdf/SIDHARTH RAMANATHAN.pdf";
 
 export default function QuotesFrame() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -18,7 +17,7 @@ export default function QuotesFrame() {
     setCurrentIndex(currentIndex + 1);
   };
   return (
-    <div className="relative py-8 px-10 bg-[#abaddd] h-full w-full   rounded-2xl flex-grow-0 ">
+    <div className="relative md:h-[453px] md:w-full w-[340px] py-8 px-10 bg-[#abaddd]    rounded-2xl  ">
       <img src={DoubleQoutes} alt="Double Qoutes" className="w-10 h-10 flex" />
       <Carousel
         autoPlay={true}
@@ -34,7 +33,7 @@ export default function QuotesFrame() {
         {QuotesData.map((quote, index) => (
           <div
             key={index}
-            className=" w-full h-80  flex flex-col justify-between items-start"
+            className="h-80 w-full  flex flex-col justify-between items-start"
           >
             <p className="pt-6 font-GeneralSansRegular text-start text-[18px]">
               {quote.quote}

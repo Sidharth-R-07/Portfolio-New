@@ -1,9 +1,9 @@
 import React from "react";
 import backGroudAnimation from "../assets/lotties/technology.json";
 import Lottie from "lottie-react";
-import DisplayGrid from "../components/DisplayGrid";
+import ProjectGrid from "../components/ProjectGrid";
 
-export default function ProfilePage() {
+export default function ProjectPage() {
   return (
     <div className="h-screen w-screen overflow-x-hidden  relative">
       <Lottie
@@ -12,7 +12,7 @@ export default function ProfilePage() {
       />
       <div className="relative h-screen w-screen z-10 bg-black bg-opacity-10 backdrop-blur-[3px] p-8 rounded-lg shadow-lg" />
 
-      <DisplayGrid />
+      <ProjectGrid />
     </div>
   );
 }
