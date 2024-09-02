@@ -5,6 +5,9 @@ import brainsilIcon from "../assets/icons/brainsil.png";
 import flystoreIcon from "../assets/icons/flystore.png";
 import flametechovensIcon from "../assets/icons/flametechovens.png";
 import athmakalariIcon from "../assets/icons/athmakalari.png";
+import flyxCoinIcon from "../assets/icons/flyxCoin.png";
+import jaseelIcon from "../assets/icons/jaseel.png";
+import pkmcaIcon from "../assets/icons/pkmca.png";
 const FlutterProjects = [
   {
     icon: strollinIcon,
@@ -34,7 +37,7 @@ const FlutterProjects = [
       "https://play.google.com/store/apps/details?id=anilbalachandran.kingsclub&pli=1",
     iosLink:
       "https://totalx.in/.https:/apps.apple.com/us/app/kings-club/id6479393707",
-    websiteLink: "https://thekingmakeruniversity.com/",
+    websiteLink: "",
     color: "#f5ba71",
   },
   {
@@ -82,4 +85,47 @@ const FlutterProjects = [
   },
 ];
 
-export { FlutterProjects };
+const ReactProjects = [
+  {
+    icon: flyxCoinIcon,
+    title: "FlyxCoin - Crypto Currency Web Site",
+    description:
+      " I developed a fully responsive cryptocurrency website using React.js, Vite, and Tailwind CSS. The site features smooth, engaging animations with Framer Motion and immersive 3D effects in the coin section, creating a dynamic user experience. I focused on optimizing the site's performance and ensuring SEO-friendly content for better visibility. This project showcases my ability to blend cutting-edge design with technical excellence, delivering a visually appealing and highly functional web application.",
+    websiteLink: "https://flyxcoin.org/",
+    color: "#fad457",
+  },
+  {
+    icon: rickkrIcon,
+    title: "Rickkr - Promotion Web Site",
+    description:
+      "I built a promotional website for 'Rickkr' using React, Vite, and Tailwind CSS. The site is fully responsive, providing a seamless experience across all devices. This project demonstrates my expertise in modern web development frameworks and my commitment to delivering high-quality, user-friendly websites.",
+    websiteLink: "https://rickkr.in/",
+    color: "#cf7ef2",
+  },
+  {
+    icon: jaseelIcon,
+    title: "JR - Portfolio Web Site",
+    description:
+      "I designed and developed a promotional website for Jaseel Rahman, a UI/UX Designer, using React, Vite, and Tailwind CSS. The site is fully responsive, ensuring a seamless user experience across all devices. This project highlights my ability to create visually appealing and functional websites, tailored to showcase the skills and portfolio of creative professionals.",
+    websiteLink: "https://jaseel-rahman.web.app/",
+    color: "#6bb0fa",
+  },
+  {
+    icon: pkmcaIcon,
+    title: "PKMCA - Kalari Promoting Web Site",
+    description:
+      "I built a responsive website for promoting Kalari education under 'PKMCA,' utilizing React, Vite, and Tailwind CSS. The project features Firebase Authentication for secure user access and Firebase Firestore for efficient data management. This website not only showcases my skills in frontend development but also my expertise in integrating backend services to create a seamless, user-friendly experience.",
+    websiteLink: "https://pkmca-28e02.web.app/",
+    color: "#eec5fa",
+  },
+  {
+    icon: athmakalariIcon,
+    title: "Athma Kalari ",
+    description:
+      "I designed and developed a responsive website for Kalari education, promoting 'Athma Kalari.' The site utilizes HTML, CSS, and JavaScript, with Firebase Firestore as the database. This project highlights my ability to create seamless, user-friendly web applications while integrating powerful backend services to manage data efficiently. The website is fully optimized for various devices, ensuring a consistent and engaging experience for all users.",
+    websiteLink: "https://athmakalari108.com/",
+    color: "#d8ffd6",
+  },
+];
+
+export { FlutterProjects, ReactProjects };

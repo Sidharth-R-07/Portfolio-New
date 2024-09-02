@@ -29,7 +29,7 @@ export default function DevelopmentSection() {
           to innovative projects and grow my expertise.
         </p>
         <a
-          href="/project"
+          href="/project/0"
           className="mt-2  px-7 bg-black py-2 text-white font-GeneralSansRegular rounded-3xl text-[13px] hover:scale-[1.04] duration-150 ease-in "
         >
           VIEW PROJECTS
@@ -54,9 +54,12 @@ export default function DevelopmentSection() {
           streamlined development experience with impressive performance
           benefits.
         </p>
-        <button className="mt-2  px-7 bg-black py-2 text-white font-GeneralSansRegular rounded-3xl text-[13px] hover:scale-[1.04] duration-150 ease-in ">
+        <a
+          href="/project/1"
+          className="mt-2  px-7 bg-black py-2 text-white font-GeneralSansRegular rounded-3xl text-[13px] hover:scale-[1.04] duration-150 ease-in "
+        >
           VIEW PROJECTS
-        </button>
+        </a>
       </div>
     </div>
   );
