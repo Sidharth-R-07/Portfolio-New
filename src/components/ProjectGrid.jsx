@@ -2,6 +2,7 @@ import { FlutterProjects, ReactProjects } from "../data/Projects";
 
 import PlayStoreIcon from "../assets/icons/playstore.png";
 import AppStoreIcon from "../assets/icons/appstore.png";
+import GithubIcon from "../assets/icons/github-icon.png";
 import { motion } from "framer-motion";
 
 import { useParams } from "react-router-dom";
@@ -48,9 +49,12 @@ export default function ProjectGrid() {
                     src={project.icon}
                     alt={project.title}
                   />
-                  <h3 className="font-ThunderBold pt-3 text-start sm:text-[32px] text-[24px] leading-7 tracking-wide">
-                    {project.title}
-                  </h3>
+                  <div className="flex-col items-start justify-start text-start text-[14px]">
+                    <h3 className="font-ThunderBold pt-3 text-start sm:text-[32px] text-[24px] leading-7 tracking-wide">
+                      {project.title}
+                    </h3>
+                    {project.company && <h2>{project.company}</h2>}
+                  </div>
                 </div>
 
                 <div className="pt-4 flex flex-row gap-4">
@@ -109,9 +113,12 @@ export default function ProjectGrid() {
                     src={project.icon}
                     alt={project.title}
                   />
-                  <h3 className="font-ThunderBold pt-3 text-start sm:text-[32px] text-[24px] leading-7 tracking-wide">
-                    {project.title}
-                  </h3>
+                  <div className="flex-col items-start justify-start text-start text-[14px]">
+                    <h3 className="font-ThunderBold pt-3 text-start sm:text-[32px] text-[24px] leading-7 tracking-wide">
+                      {project.title}
+                    </h3>
+                    {project.company && <h2>{project.company}</h2>}
+                  </div>
                 </div>
 
                 <div className="pt-4 flex flex-row gap-4">
@@ -140,14 +147,25 @@ export default function ProjectGrid() {
                       />
                     </a>
                   )}
-                  {project.websiteLink && (
-                    <a
-                      href={project.websiteLink}
-                      className="mt-2  px-7 bg-black py-2 text-white font-GeneralSansRegular rounded-3xl text-[13px] hover:scale-[1.04] duration-150 ease-in "
-                    >
-                      VIEW WEB SITE
-                    </a>
-                  )}
+                  <div className="flex flex-row gap-3 items-center">
+                    {project.websiteLink && (
+                      <a
+                        href={project.websiteLink}
+                        className="mt-2  px-7 bg-black py-2 text-white font-GeneralSansRegular rounded-3xl text-[13px] hover:scale-[1.04] duration-150 ease-in "
+                      >
+                        VIEW WEB SITE
+                      </a>
+                    )}
+
+                    {project.github && (
+                      <a
+                        href={project.github}
+                        className="mt-2  px-7 bg-black py-2 text-white font-GeneralSansRegular rounded-3xl text-[13px] hover:scale-[1.04] duration-150 ease-in "
+                      >
+                        VIEW REPOSITORY
+                      </a>
+                    )}
+                  </div>
                 </div>
 
                 <p className="pt-4 sm:pt-5 font-GeneralSansRegular text-start text-[13px] sm:text-[15px] tracking-wide sm:leading-7 leading-6">
