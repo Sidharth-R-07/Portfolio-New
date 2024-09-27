@@ -157,14 +157,14 @@ export default function ProjectGrid() {
                       </a>
                     )}
 
-                    {project.github && (
+                    {/* {project.github && (
                       <a
                         href={project.github}
                         className="mt-2  px-7 bg-black py-2 text-white font-GeneralSansRegular rounded-3xl text-[13px] hover:scale-[1.04] duration-150 ease-in "
                       >
                         VIEW REPOSITORY
                       </a>
-                    )}
+                    )} */}
                   </div>
                 </div>
 
