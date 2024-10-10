@@ -96,9 +96,9 @@ const ReactProjects = [
   {
     icon: flyxCoinIcon,
     title: "FlyxCoin - Crypto Currency Web Site",
-    company: "Freelance",
+    company: "Collaborated with TotalX Software",
     description:
-      " I developed a fully responsive cryptocurrency website using React.js, Vite, and Tailwind CSS. The site features smooth, engaging animations with Framer Motion and immersive 3D effects in the coin section, creating a dynamic user experience. I focused on optimizing the site's performance and ensuring SEO-friendly content for better visibility. This project showcases my ability to blend cutting-edge design with technical excellence, delivering a visually appealing and highly functional web application.",
+      "Collaboratively worked with Total x for the first phase development of fully responsive cryptocurrency website using React.js, Vite, and Tailwind CSS. The site features smooth, engaging animations with Framer Motion and immersive 3D effects in the coin section, creating a dynamic user experience. I focused on optimizing the site's performance and ensuring SEO-friendly content for better visibility. This project showcases my ability to blend cutting-edge design with technical excellence, delivering a visually appealing and highly functional web application.",
     websiteLink: "https://flyxcoin.org/",
     github: "https://github.com/Sidharth-R-07/FLYXCOIN",
     color: "#fad457",
